@@ -109,6 +109,9 @@ export default {
                 font-weight: 100;
                 align-content: center;
                 margin: 0 auto;
+                @include mobile {
+                    font-size: 12px;
+                }
                 a {
                     color: white;
                     font-size: 14px;
@@ -117,10 +120,16 @@ export default {
                     &:hover {
                         color: #ffffffe8;
                     }
+                    @include mobile {
+                        font-size: 12px;
+                    }
                 }
             }
             .space {
                 width: 20px;
+                @include mobile {
+                    display: none;
+                }
             }
             .close-btn {
                 width: 20px;
@@ -130,6 +139,9 @@ export default {
                 display: flex;
                 justify-items: right;
                 // margin-left: auto;
+                @include mobile {
+                    display: none;
+                }
             }
         }
     }
