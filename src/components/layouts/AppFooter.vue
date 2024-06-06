@@ -230,7 +230,7 @@ export default {
                 }
                 // max-width: 1340px;
                 .text-uptodate {
-                    max-width: 550px;
+                    max-width: 650px;
                     font-size: 40px;
                     font-family: 'Integral CF', sans-serif;
                     letter-spacing: -0.07em;
